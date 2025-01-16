@@ -46,7 +46,7 @@ class VoiceAssistant():
             self.speak("Sana da merhaba genç")
 
         if "selam" in voice:
-            self.speak("Sana 2 kere selam olsun.")
+            self.speak("Sana da selamlar olsun.")
 
         if "teşekkür ederim" in voice or "teşekkürler" in voice:
             self.speak("rica ederim.")
