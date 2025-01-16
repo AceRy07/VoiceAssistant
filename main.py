@@ -43,7 +43,7 @@ class VoiceAssistant():
 
     def response(self, voice):
         if "merhaba" in voice:
-            self.speak("Sana da merhaba genç")
+            self.speak("Sana da merhaba gençler")
 
         if "selam" in voice:
             self.speak("Sana da selamlar olsun.")
